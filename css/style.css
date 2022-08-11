@@ -1,24 +1,99 @@
 .card1 {
     background-image: url(../images/adventure-card.png);
+    height: 500px;
 }
 
 .card4, .card5, .card6 {
-    bottom: 0;
-    z-index: 1;
+  bottom: 0;
+  z-index: 1;
 }
+
 .jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url(../images/hero.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 500px;
     height: calc(100vh - 25px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border: 3px solid #73AD21;
+    position: relative;
   
   }
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 250px;
+  
+}
+
   .card-text {
     color: white;
+  }
+
+  .container {
+   display: flex;
+   position: absolute;
+   top: 0;
+   border: 3px solid #73AD21;
+
+  }
+
+  .topnav {
+    background-image: url(../images/Logo.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    width: 100%;
+    border: 3px solid red;
+  }
+
+  .middlenav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: 3px solid black;
+    
+  }
+
+.rightnav {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  border: 3px solid red;
+}
+
+  .menu {
+    display: flex;  
+    width: 15px;
+    height: 2px;
+    background-color: white;
+    margin: 3px 0;
+      
+  }
+
+  .centeredMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  .middlenav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .middlenav a:hover {
+    text-decoration: underline;
   }
 
   .btn {
