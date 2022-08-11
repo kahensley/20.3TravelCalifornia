@@ -1,0 +1,28 @@
+.card1 {
+    background-image: url(../images/adventure-card.png);
+}
+
+.card4, .card5, .card6 {
+    bottom: 0;
+    z-index: 1;
+}
+.jumbotron {
+    background-image: url(../images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .card-text {
+    color: white;
+  }
+
+  .btn {
+    background-color: orange;
+    outline: none;
+    border: none;
+  }
